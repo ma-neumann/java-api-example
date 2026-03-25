@@ -1,6 +1,5 @@
-package net.dainco.container.configuration;
+package org.java.api.example;
 
-import net.dainco.container.filter.CorsFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

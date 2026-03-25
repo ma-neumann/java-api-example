@@ -1,4 +1,4 @@
-# Java REST API best practices
+# Java REST API example
 
 A working example with Spring Boot.
 
@@ -15,11 +15,11 @@ mvn spring-boot:run
 Docker should be installed in your computer.
 ```
 sh build-docker.sh
-sudo docker run --net=host -e JAVA_OPTS="-Xmx1g -Xms1g" java-api-guidelines
+sudo docker run --net=host -e JAVA_OPTS="-Xmx1g -Xms1g" java-api-example
 ```
 
 ## Java standalone executable
 ```
 mvn package
-java -jar target/java-api-guidelines.jar
+java -jar target/java-api-example.jar
 ```

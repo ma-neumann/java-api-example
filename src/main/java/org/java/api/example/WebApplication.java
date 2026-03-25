@@ -1,6 +1,5 @@
-package net.dainco.container;
+package org.java.api.example;
 
-import net.dainco.container.configuration.ApplicationContextConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

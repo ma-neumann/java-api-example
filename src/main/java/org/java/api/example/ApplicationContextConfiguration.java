@@ -1,4 +1,4 @@
-package net.dainco.container.configuration;
+package org.java.api.example;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * Configuration root.
  * TODO: Register all package names of the modules in @ComponentScan.
  */
-@ComponentScan({"net.dainco.module.user"})
+@ComponentScan({"org.java.api.example.endpoints"})
 @Configuration
 @EnableScheduling
 @Import(value = {

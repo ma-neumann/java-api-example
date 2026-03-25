@@ -3,4 +3,4 @@
 set -e
 
 mvn clean test package
-sudo docker build -t java-api-guidelines .
+sudo docker build -t java-api-example .

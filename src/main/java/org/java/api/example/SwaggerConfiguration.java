@@ -1,4 +1,4 @@
-package net.dainco.container.configuration;
+package org.java.api.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
